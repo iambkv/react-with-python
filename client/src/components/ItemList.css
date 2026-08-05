@@ -1,0 +1,161 @@
+.item-table-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.item-table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.item-table-header h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.item-count-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+}
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-table thead {
+  background: var(--bg-hover);
+}
+
+.item-table th {
+  padding: 0.75rem 1.25rem;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.item-table td {
+  padding: 0.85rem 1.25rem;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.item-table tbody tr {
+  transition: background 0.12s;
+}
+
+.item-table tbody tr:hover {
+  background: var(--bg-hover);
+}
+
+.item-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.item-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.item-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.item-desc-cell {
+  color: var(--text-secondary);
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-desc {
+  color: var(--text-muted);
+}
+
+.item-actions-cell {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.action-btn {
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.12s;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.action-btn.edit {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.action-btn.edit:hover {
+  background: rgba(99, 102, 241, 0.25);
+}
+
+.action-btn.danger {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.action-btn.danger:hover {
+  background: rgba(239, 68, 68, 0.25);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.empty-state .empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.empty-state h3 {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.empty-state p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.compact .item-table th,
+.compact .item-table td {
+  padding: 0.6rem 1rem;
+}
