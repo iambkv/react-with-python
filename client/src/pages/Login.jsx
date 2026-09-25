@@ -37,6 +37,22 @@ function Login() {
 
         {error && <div className="auth-error">{error}</div>}
 
+        <div
+          className="test-credentials"
+          onClick={() => {
+            setEmail("admin@gmail.com");
+            setPassword("admin@123");
+          }}
+          title="Click to autofill"
+        >
+          <span className="test-badge">TEST</span>
+          <div className="test-info">
+            <p><strong>Email:</strong> admin@gmail.com</p>
+            <p><strong>Password:</strong> admin@123</p>
+          </div>
+          <span className="test-hint">Click to autofill →</span>
+        </div>
+
         <form onSubmit={handleSubmit} className="auth-form">
           <div className="form-group">
             <label htmlFor="email">Email</label>
