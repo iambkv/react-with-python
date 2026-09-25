@@ -12,6 +12,62 @@ Run any program: save it as a `.py` file and execute `python filename.py`
 
 ---
 
+## 📑 Table of Contents (Click to Jump)
+
+### Section 1: Basic Programs (Freshers Level)
+
+| # | Question | Link |
+|---|----------|------|
+| 1 | Reverse a String | [Jump →](#q1-reverse-a-string) |
+| 2 | Check if a String is Palindrome | [Jump →](#q2-check-if-a-string-is-palindrome) |
+| 3 | Fibonacci Series | [Jump →](#q3-fibonacci-series) |
+| 4 | Check Prime Number | [Jump →](#q4-check-prime-number) |
+| 5 | Factorial of a Number | [Jump →](#q5-factorial-of-a-number) |
+| 6 | Find Duplicate Elements in a List | [Jump →](#q6-find-duplicate-elements-in-a-list) |
+| 7 | Count Character Frequency in a String | [Jump →](#q7-count-character-frequency-in-a-string) |
+| 8 | Sort a List Without Built-in sort() | [Jump →](#q8-sort-a-list-without-built-in-sort) |
+| 9 | Two Sum Problem | [Jump →](#q9-two-sum-problem) |
+| 10 | FizzBuzz | [Jump →](#q10-fizzbuzz) |
+
+### Section 2: Intermediate Programs (1-3 Years Experience)
+
+| # | Question | Link |
+|---|----------|------|
+| 11 | Anagram Check | [Jump →](#q11-anagram-check) |
+| 12 | Remove Duplicates from List (Maintain Order) | [Jump →](#q12-remove-duplicates-from-list-maintain-order) |
+| 13 | Find Second Largest Number | [Jump →](#q13-find-second-largest-number) |
+| 14 | Matrix Transpose | [Jump →](#q14-matrix-transpose) |
+| 15 | Flatten a Nested List | [Jump →](#q15-flatten-a-nested-list) |
+| 16 | Merge Two Sorted Lists | [Jump →](#q16-merge-two-sorted-lists) |
+| 17 | Binary Search | [Jump →](#q17-binary-search) |
+| 18 | Decorator Example (Commonly Asked) | [Jump →](#q18-decorator-example-commonly-asked) |
+| 19 | List Comprehension Examples | [Jump →](#q19-list-comprehension-examples) |
+| 20 | Generator Function (yield) | [Jump →](#q20-generator-function-yield) |
+
+### Section 3: Advanced Programs (3+ Years Experience)
+
+| # | Question | Link |
+|---|----------|------|
+| 21 | LRU Cache Implementation | [Jump →](#q21-lru-cache-implementation) |
+| 22 | Singleton Pattern | [Jump →](#q22-singleton-pattern) |
+| 23 | Producer-Consumer with Threading | [Jump →](#q23-producer-consumer-with-threading) |
+| 24 | Context Manager (with statement) | [Jump →](#q24-context-manager-with-statement) |
+| 25 | Implement a Stack and Queue | [Jump →](#q25-implement-a-stack-and-queue) |
+
+### Section 4: Scenario-Based Interview Questions & Answers
+
+| # | Question | Link |
+|---|----------|------|
+| S1 | How would you handle millions of records in an API? | [Jump →](#s1-how-would-you-handle-millions-of-records-in-an-api) |
+| S2 | How do you prevent SQL/NoSQL injection? | [Jump →](#s2-how-do-you-prevent-sqlnosql-injection) |
+| S3 | How do you handle rate limiting? | [Jump →](#s3-how-do-you-handle-rate-limiting) |
+| S4 | How do you handle file uploads? | [Jump →](#s4-how-do-you-handle-file-uploads) |
+| S5 | How do you implement logging and error tracking? | [Jump →](#s5-how-do-you-implement-logging-and-error-tracking) |
+| S6 | How do you write unit tests for an API? | [Jump →](#s6-how-do-you-write-unit-tests-for-an-api) |
+| S7 | How do you handle database connection failures? | [Jump →](#s7-how-do-you-handle-database-connection-failures) |
+
+---
+
 ## Section 1: Basic Programs (Freshers Level)
 
 ---

@@ -1,5 +1,39 @@
 # 🐍 Python FastAPI — Complete Learning Guide (From Zero to End)
 
+## 📑 Table of Contents (Click to Jump)
+
+| # | Topic | Link |
+|---|-------|------|
+| 1 | What is Python? | [Jump →](#part-1-what-is-python) |
+| 2 | What is an API? | [Jump →](#part-2-what-is-an-api) |
+| 3 | What is FastAPI? | [Jump →](#part-3-what-is-fastapi) |
+| 4 | Our Project Structure Explained | [Jump →](#part-4-our-project-structure-explained) |
+| 5 | Every File Explained in Detail | [Jump →](#part-5-every-file-explained-in-detail) |
+| 6 | Complete Request Flow — Real Example | [Jump →](#part-6-complete-request-flow--real-example) |
+| 7 | JWT Authentication Flow | [Jump →](#part-7-jwt-authentication-flow--complete-walkthrough) |
+| 8 | React Frontend — How API Data is Displayed | [Jump →](#part-8-react-frontend--how-api-data-is-displayed) |
+| 9 | MVC Pattern — Why We Separate Code | [Jump →](#part-9-mvc-pattern--why-we-separate-code) |
+| 10 | Important Python Concepts | [Jump →](#part-10-important-python-concepts-in-this-project) |
+| 11 | Swagger UI — Free Documentation | [Jump →](#part-11-swagger-ui--free-interactive-documentation) |
+| 12 | Quick Reference | [Jump →](#part-12-quick-reference) |
+
+### Part 5 — File-by-File Deep Dive
+
+| File | Link |
+|------|------|
+| `main.py` — Entry Point | [Jump →](#51-mainpy--the-entry-point) |
+| `.env` — Environment Variables | [Jump →](#52-env--environment-variables) |
+| `config.py` — Configuration | [Jump →](#53-appconfigpy--loading-configuration) |
+| `database.py` — MongoDB Connection | [Jump →](#54-appdatabasepy--mongodb-connection) |
+| `__init__.py` — App Factory | [Jump →](#55-app__init__py--the-app-factory) |
+| `auth.py` — JWT Authentication | [Jump →](#56-appauthpy--jwt-authentication-utilities) |
+| `item_schema.py` — Data Validation | [Jump →](#57-appschemasitem_schemapy--data-validation-with-pydantic) |
+| `item_routes.py` — URL Endpoints | [Jump →](#58-approutesitem_routespy--url-endpoint-definitions) |
+| `item_controller.py` — Business Logic | [Jump →](#59-appcontrollersitem_controllerpy--business-logic) |
+| `item_model.py` — Database Operations | [Jump →](#510-appmodelsitem_modelpy--database-operations) |
+
+---
+
 ## What This Document Covers
 
 This document explains everything about how a Python API works — from scratch. If you're learning Python and want to understand how a full-stack application works behind the scenes, this is for you.

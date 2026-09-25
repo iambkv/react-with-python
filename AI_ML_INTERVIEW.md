@@ -4,6 +4,150 @@ A complete guide for AI/ML interviews covering basics to advanced topics with si
 
 ---
 
+## 📑 Table of Contents (Click to Jump)
+
+### Section 1: AI Basics (Must Prepare)
+
+| # | Question | Link |
+|---|----------|------|
+| Q1 | What is AI? What is ML? What is Deep Learning? | [Jump →](#q1-what-is-ai-what-is-machine-learning-what-is-deep-learning) |
+| Q2 | Supervised, Unsupervised & Reinforcement Learning | [Jump →](#q2-explain-supervised-unsupervised-and-reinforcement-learning) |
+| Q3 | Difference between AI, ML and Deep Learning | [Jump →](#q3-difference-between-ai-ml-and-deep-learning) |
+| Q4 | What is Generative AI? | [Jump →](#q4-what-is-generative-ai) |
+| Q5 | How does ChatGPT work internally? | [Jump →](#q5-how-does-chatgpt-work-internally) |
+| Q6 | What is an LLM? | [Jump →](#q6-what-is-an-llm) |
+| Q7 | What are Tokens? | [Jump →](#q7-what-are-tokens) |
+| Q8 | What is Context Window? | [Jump →](#q8-what-is-context-window) |
+| Q9 | What is Temperature? | [Jump →](#q9-what-is-temperature) |
+| Q10 | What is Hallucination? | [Jump →](#q10-what-is-hallucination) |
+
+### Section 2: Embeddings & Semantic Search
+
+| # | Question | Link |
+|---|----------|------|
+| Q11 | What are Embeddings? | [Jump →](#q11-what-are-embeddings) |
+| Q12 | Why do we convert text into vectors? | [Jump →](#q12-why-do-we-convert-text-into-vectors) |
+| Q13 | What is Semantic Search? | [Jump →](#q13-what-is-semantic-search) |
+| Q14 | Keyword Search vs Semantic Search | [Jump →](#q14-keyword-search-vs-semantic-search) |
+| Q15 | How does Cosine Similarity work? | [Jump →](#q15-how-does-cosine-similarity-work) |
+| Q16 | Why is Cosine Similarity preferred? | [Jump →](#q16-why-is-cosine-similarity-preferred) |
+| Q17 | What is Vector Search? | [Jump →](#q17-what-is-vector-search) |
+| Q18 | Why can't SQL perform Semantic Search efficiently? | [Jump →](#q18-why-cant-sql-perform-semantic-search-efficiently) |
+
+### Section 3: Vector Database
+
+| # | Question | Link |
+|---|----------|------|
+| Q19 | What is a Vector Database? | [Jump →](#q19-what-is-a-vector-database) |
+| Q20 | Why do we need a Vector DB? | [Jump →](#q20-why-do-we-need-a-vector-db) |
+| Q21 | Pinecone vs FAISS vs ChromaDB | [Jump →](#q21-pinecone-vs-faiss-vs-chromadb) |
+| Q22 | How are embeddings stored? | [Jump →](#q22-how-are-embeddings-stored) |
+| Q23 | What is ANN (Approximate Nearest Neighbor)? | [Jump →](#q23-what-is-ann-approximate-nearest-neighbor) |
+| Q24 | How does vector indexing improve performance? | [Jump →](#q24-how-does-vector-indexing-improve-performance) |
+
+### Section 4: RAG (Highest Probability)
+
+| # | Question | Link |
+|---|----------|------|
+| Q25 | What is RAG? | [Jump →](#q25-what-is-rag) |
+| Q26 | Explain complete RAG Architecture | [Jump →](#q26-explain-complete-rag-architecture) |
+| Q27 | Why not directly send PDF to ChatGPT? | [Jump →](#q27-why-not-directly-send-pdf-to-chatgpt) |
+| Q28 | What is Chunking? | [Jump →](#q28-what-is-chunking) |
+| Q29 | Fixed Chunk vs Semantic Chunk | [Jump →](#q29-fixed-chunk-vs-semantic-chunk) |
+| Q30 | What is Chunk Overlap? | [Jump →](#q30-what-is-chunk-overlap) |
+| Q31 | What is Top-K Retrieval? | [Jump →](#q31-what-is-top-k-retrieval) |
+| Q32 | Why does RAG reduce hallucinations? | [Jump →](#q32-why-does-rag-reduce-hallucinations) |
+| Q33 | Fine-tuning vs RAG | [Jump →](#q33-fine-tuning-vs-rag) |
+| Q34 | What happens after retrieving documents? | [Jump →](#q34-what-happens-after-retrieving-documents) |
+| Q35 | What if retrieved documents are irrelevant? | [Jump →](#q35-what-if-retrieved-documents-are-irrelevant) |
+
+### Section 5: Prompt Engineering
+
+| # | Question | Link |
+|---|----------|------|
+| Q36 | What is Prompt Engineering? | [Jump →](#q36-what-is-prompt-engineering) |
+| Q37 | Zero-shot Prompting | [Jump →](#q37-zero-shot-prompting) |
+| Q38 | One-shot Prompting | [Jump →](#q38-one-shot-prompting) |
+| Q39 | Few-shot Prompting | [Jump →](#q39-few-shot-prompting) |
+| Q40 | Chain-of-Thought Prompting | [Jump →](#q40-chain-of-thought-prompting) |
+| Q41 | How do you improve prompt quality? | [Jump →](#q41-how-do-you-improve-prompt-quality) |
+| Q42 | What makes a bad prompt? | [Jump →](#q42-what-makes-a-bad-prompt) |
+
+### Section 6: AI Architecture
+
+| # | Question | Link |
+|---|----------|------|
+| Q43 | Explain architecture of an AI chatbot | [Jump →](#q43-explain-architecture-of-an-ai-chatbot) |
+| Q44 | Explain Document Q&A System Architecture | [Jump →](#q44-explain-document-qa-system-architecture) |
+| Q45 | Explain Resume Analyzer Architecture | [Jump →](#q45-explain-resume-analyzer-architecture) |
+| Q46-49 | Other AI Architectures | [Jump →](#q46-49-pattern-is-similar-for-other-architectures) |
+
+### Section 7: API Integration
+
+| # | Question | Link |
+|---|----------|------|
+| Q50 | How do you integrate OpenAI API? | [Jump →](#q50-how-do-you-integrate-openai-api) |
+| Q51 | Chat Completion vs Embeddings API | [Jump →](#q51-chat-completion-vs-embeddings-api) |
+| Q52 | How do you secure API Keys? | [Jump →](#q52-how-do-you-secure-api-keys) |
+| Q53-56 | Error Handling, Retry, Rate Limiting, Streaming | [Jump →](#q53-56-error-handling-retry-rate-limiting-streaming) |
+
+### Section 8: AI Production Questions
+
+| # | Question | Link |
+|---|----------|------|
+| Q57 | How do you reduce API cost? | [Jump →](#q57-how-do-you-reduce-api-cost) |
+| Q58 | Why cache AI responses? | [Jump →](#q58-why-cache-ai-responses) |
+| Q59-63 | Token Optimization, Monitoring, PII, Security | [Jump →](#q59-63-token-optimization-monitoring-pii-security) |
+
+### Section 9: AI Agents
+
+| # | Question | Link |
+|---|----------|------|
+| Q64 | What is an AI Agent? | [Jump →](#q64-what-is-an-ai-agent) |
+| Q65 | AI Agent vs Chatbot | [Jump →](#q65-ai-agent-vs-chatbot) |
+| Q66 | What is Tool Calling / Function Calling? | [Jump →](#q66-what-is-tool-calling--function-calling) |
+| Q67-70 | Function Calling, MCP, Multi-Agent, Memory | [Jump →](#q67-70-function-calling-mcp-multi-agent-memory) |
+
+### Section 10: Scenario-Based Questions (Most Important)
+
+| # | Question | Link |
+|---|----------|------|
+| Q71 | Chatbot giving wrong answers — how to debug? | [Jump →](#q71-your-chatbot-is-giving-wrong-answers-how-will-you-debug-it) |
+| Q72 | User uploads a 500-page PDF | [Jump →](#q72-user-uploads-a-500-page-pdf-how-will-you-answer-questions-from-it) |
+| Q73 | How will you reduce hallucinations? | [Jump →](#q73-how-will-you-reduce-hallucinations) |
+| Q74 | Same question repeatedly — reduce cost | [Jump →](#q74-user-asks-same-question-repeatedly-how-to-reduce-cost) |
+| Q75 | OpenAI API becomes unavailable | [Jump →](#q75-openai-api-becomes-unavailable-what-will-your-application-do) |
+| Q76 | Build ChatGPT for company documents | [Jump →](#q76-how-will-you-build-chatgpt-for-company-documents) |
+| Q77 | 10 million embeddings — improve search speed | [Jump →](#q77-vector-db-has-10-million-embeddings-how-to-improve-search-speed) |
+| Q78 | Irrelevant documents — improve retrieval | [Jump →](#q78-chatbot-returns-irrelevant-documents-how-to-improve-retrieval) |
+| Q79 | Handle confidential documents | [Jump →](#q79-how-do-you-handle-confidential-documents-in-an-ai-chatbot) |
+| Q80 | Multilingual search (Hindi + English) | [Jump →](#q80-pdfs-in-hindi-and-english-how-to-build-multilingual-search) |
+| Q81-85 | Additional Production Scenarios | [Jump →](#q81-85-additional-production-scenarios) |
+
+### Section 11: Coding + AI
+
+| # | Question | Link |
+|---|----------|------|
+| Q86 | Write code to generate embeddings | [Jump →](#q86-write-code-to-generate-embeddings) |
+| Q87 | Write code for Cosine Similarity | [Jump →](#q87-write-code-for-cosine-similarity) |
+| Q88 | Python API to call OpenAI (FastAPI) | [Jump →](#q88-python-api-to-call-openai-fastapi) |
+| Q89 | Store embeddings in Pinecone | [Jump →](#q89-store-embeddings-in-pinecone) |
+| Q90 | Retrieve Top-K documents | [Jump →](#q90-retrieve-top-k-documents) |
+
+### Section 12: HR + Project Questions
+
+| # | Question | Link |
+|---|----------|------|
+| Q91 | Explain your AI project | [Jump →](#q91-explain-your-ai-project) |
+| Q92 | Why RAG instead of Fine-tuning? | [Jump →](#q92-why-did-you-choose-rag-instead-of-fine-tuning) |
+| Q93 | What challenges did you face? | [Jump →](#q93-what-challenges-did-you-face) |
+| Q94 | How did you improve response quality? | [Jump →](#q94-how-did-you-improve-response-quality) |
+| Q95 | How did you measure AI accuracy? | [Jump →](#q95-how-did-you-measure-ai-accuracy) |
+| Q96 | How did you deploy your AI project? | [Jump →](#q96-how-did-you-deploy-your-ai-project) |
+| Q97 | What would you improve with more time? | [Jump →](#q97-what-would-you-improve-if-you-had-more-time) |
+
+---
+
 ## Section 1: AI Basics (Must Prepare)
 
 ---
